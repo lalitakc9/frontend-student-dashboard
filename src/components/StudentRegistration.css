@@ -1,0 +1,41 @@
+.student-container {
+    max-width: 500px; /* Increased width */
+    margin: 0 auto;
+    padding: 40px; /* Increased padding */
+    border: 1px solid #ccc;
+    border-radius: 12px; /* Rounded corners */
+  }
+  
+  .student-form-group {
+    margin-bottom: 30px; /* Increased margin */
+  }
+  
+  .student-label {
+    display: block;
+    margin-bottom: 10px; /* Increased margin */
+    font-size: 18px; /* Larger font size */
+  }
+  
+  .input[type='text'] {
+    width: calc(100% - 20px);
+  padding: 8px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px; /* Increased padding */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px; /* Larger font size */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

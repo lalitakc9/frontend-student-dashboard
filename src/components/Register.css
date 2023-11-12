@@ -1,0 +1,78 @@
+.register-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.register-form {
+  max-width: 300px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  align-self: center;
+  color-scheme:red;
+}
+
+.sign-p{
+  color: rgb(11, 27, 129);
+  text-align: center;
+}
+
+
+.register-h1 {
+  text-align: center;
+}
+
+.register-label {
+  margin-top: 10px;
+}
+
+.register-input ,
+.register-section {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.register-p{
+  color: rgb(11, 27, 129);
+  text-align: center;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-link .line {
+  border-bottom: 1px solid #ccc;
+  display: inline-block;
+  padding: 5px;
+}
+
+.register-link .line a {
+  text-decoration: none;
+  color: #000;
+}
+
